@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{width: 100vw;}
+/*-----section one---------*/
+.first {
+    background: radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    padding: 60px 0 0 0;
+}
+header{
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 573px;
+    margin: 0 auto;
+}
+header p:first-of-type{
+    color: #F1CDB3;
+    font-family: "Georgia", sans-serif;
+    font-size: 32px;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 1.92px;
+}
+header p:last-of-type{
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style-type: none;
+}
+header ul a{
+    color: #CDCDCD;
+    font-family: "Arial",sans-serif;
+    font-size: 15px;
+    line-height: 160%; /* 24px */
+    text-decoration: none;
+}
+header ul a:hover{
+    color: #fafafa;
+    border-bottom: 3px solid #F1CDB3;
+}
+.first>div{
+    width: 1200px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first article{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 42px;
+}
+.first h4{
+    width: 310px;
+    color: #FFF;
+    font-family: "Georgia",sans-serif;
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 130%; /* 57.2px */
+}
+.first article p{
+    width: 460px;
+    color: #CDCDCD;
+    font-family: "Arial",sans-serif;
+    font-size: 15px;
+    line-height: 160%; /* 24px */
+}
+.first button{
+    background: #F1CDB3;
+    border: none;
+    border-radius: 26px;
+    width: 208px;
+    height: 52px;
+    color: #292929;
+    font-family: Georgia,sans-serif;
+    font-size: 17px;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1.02px;
+}
+/*-----------section about------------*/
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin: 80px auto 110px auto;
+}
+#about h3{
+    font-weight: 400;
+    width: 370px;
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+#about p{
+    width: 430px;
+    color: #4C4C4C;
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+    line-height: 160%; /* 24px */
+}
+#about>div{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 26px;
+}
