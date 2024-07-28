@@ -6,7 +6,8 @@
 section{width: 98.46vw;}
 /*-----section one---------*/
 .first {
-    background: radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    background-image: url("img/start-background.png");
+    background-size: cover;
     padding: 60px 0 0 0;
 }
 header{
@@ -285,4 +286,24 @@ header ul a:hover{
 }
 #help .bottom button svg{
     margin: 0 16px -4px 0;
+}
+/*--------footer------*/
+#contacts{
+    width: 100%;
+    background-image: url("img/footer-background.png");
+    background-size: cover;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 160px;
+}
+#contacts div{
+    width: 302px;
+    height: 234px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 16px;
 }
