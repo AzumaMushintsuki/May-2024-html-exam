@@ -105,13 +105,12 @@ header ul a:hover{
     gap: 120px;
 
 }
-#about h3{
+#about h4{
     font-weight: 400;
     width: 370px;
     color: #545454;
     font-family: "Georgia", sans-serif;
     font-size: 35px;
-    font-style: normal;
     line-height: 130%; /* 45.5px */
     letter-spacing: 2.1px;
 }
@@ -142,7 +141,7 @@ header ul a:hover{
     gap: 60px;
     padding: 80px 0 100px;
 }
-#pets h3{
+#pets h4{
     color: #545454;
     width: 400px;
     text-align: center;
@@ -199,8 +198,91 @@ header ul a:hover{
     justify-content: center;
     align-items: center;
 }
-#help article:first-child{
+#help .top{
     flex-direction: column;
     gap: 60px;
-
+}
+#help .top h4{
+    width: 350px;
+    color: #545454;
+    text-align: center;
+    font-family: "Georgia",sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+#help .top>div{
+    width: 1030px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 55px 120px;
+}
+#help .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#help .card p{
+    color: #545454;
+    text-align: center;
+    font-family: "Georgia",sans-serif;
+    font-size: 20px;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+#help .bottom{
+    background: #F6F6F6;
+    gap: 30px;
+}
+#help .bottom div{
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+#help .bottom div h4{
+    width: 300px;
+    color: #545454;
+    font-family: "Georgia",sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+#help .bottom div p:first-of-type{
+    color: #545454;
+    font-family: "Georgia", sans-serif;
+    font-size: 15px;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 0.9px;
+}
+#help .bottom div p:last-of-type{
+    color: #B2B2B2;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px; /* 150% */
+}
+#help .bottom button{
+    width: 350px;
+    height: 44px;
+    border-radius: 9px;
+    background: #F1CDB3;
+    border: none;
+    color: #545454;
+    font-family: "Georgia", sans-serif;
+    font-size: 20px;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+#help .bottom button svg{
+    margin: 0 16px -4px 0;
 }
