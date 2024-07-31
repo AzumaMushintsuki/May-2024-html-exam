@@ -307,3 +307,28 @@ header ul a:hover{
     flex-direction: column;
     margin-top: 16px;
 }
+#contacts .img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+#contacts h3{
+    color: #FFF;
+    font-family: "Georgia", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+#contacts h4{
+    color: #F1CDB3;
+    font-family: "Georgia", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+    width: 260px;
+}
