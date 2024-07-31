@@ -1,0 +1,121 @@
+@media screen and (max-width: 320px){
+    section {width: 100vw}
+    header nav{ display: none}
+    header {
+        width: 300px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    .first {
+        padding: 30px 0 0 0;
+        background-image: url("img/mobile-background.png");
+    }
+    .first>div{
+        width: 100%;
+        flex-direction: column;
+        gap: 110px;
+    }
+    .first>div img{
+        width: 260px;
+    }
+    .first article{
+        width: 300px;
+        align-items: center;
+        text-align: center;
+    }
+    .first article p{
+        width: 100%;
+    }
+    .first h4 {
+        font-size: 25px;
+        width: 200px;
+        letter-spacing: 1.5px;
+    }
+    #about{
+        flex-direction: column-reverse;
+        gap: 42px;
+        padding-bottom: 42px;
+    }
+    #about h4{
+        font-size: 25px;
+        text-align: center;
+        margin: 42px auto 0 auto;
+        width: 250px;
+        letter-spacing: 1.5px;
+    }
+    #about p{
+        width: 270px;
+        text-align: justify;
+    }
+    #about img{
+        margin: 0;
+        width: 260px;
+    }
+    #pets {padding: 42px 0 84px;}
+    #pets h4 {
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        width: 100%;
+    }
+    #pets>div>.card:nth-child(n+2){display: none}
+    #help article {padding: 42px 0}
+    #help h4 {
+        width: 300px;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 1.5px;
+    }
+    #help .top>div{
+        width: 290px;
+        height: 555px;
+        justify-content: flex-start;
+        align-content: flex-start;
+        gap: 30px;
+    }
+    #help .card{
+        width: 130px;
+        height: 87px;
+    }
+    #help .card p {font-size: 15px}
+    #help .bottom{
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+    #help .bottom>div{
+        width: 280px;
+        align-items: center;
+    }
+    #help .bottom img {width: 260px;}
+    #help .bottom div p:first-of-type{
+        line-height: 160%; /* 24px */
+        letter-spacing: normal;
+    }
+    #help .bottom button{
+        width: 280px;
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+    #help .bottom button svg {margin: 0 16px -7px 0;}
+    #help .bottom div p:last-of-type {text-align: justify;}
+    #contacts{
+        background-image: url("img/footer-mobile-background.png");
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 30px;
+        align-items: center;
+        width: 100vw;
+    }
+    #contacts h3{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        width: 270px;
+    }
+    #contacts>div:first-child .img {justify-content: center}
+    #contacts>div {align-items: center}
+    #contacts>img{
+        width: 260px;
+        height: 269px;
+    }
+}

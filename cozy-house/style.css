@@ -14,7 +14,7 @@ header{
     display: flex;
     width: 1200px;
     height: 60px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 573px;
     margin: 0 auto;
@@ -203,7 +203,7 @@ header ul a:hover{
     flex-direction: column;
     gap: 60px;
 }
-#help .top h4{
+#help h4{
     width: 350px;
     color: #545454;
     text-align: center;
@@ -249,15 +249,6 @@ header ul a:hover{
     flex-direction: column;
     gap: 20px;
 }
-#help .bottom div h4{
-    width: 300px;
-    color: #545454;
-    font-family: "Georgia",sans-serif;
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 130%; /* 45.5px */
-    letter-spacing: 2.1px;
-}
 #help .bottom div p:first-of-type{
     color: #545454;
     font-family: "Georgia", sans-serif;
@@ -289,7 +280,7 @@ header ul a:hover{
 }
 /*--------footer------*/
 #contacts{
-    width: 100%;
+    width: 98.46vw;
     background-image: url("img/footer-background.png");
     background-size: cover;
     padding-top: 40px;
@@ -298,7 +289,7 @@ header ul a:hover{
     align-items: flex-start;
     gap: 160px;
 }
-#contacts div{
+#contacts>div{
     width: 302px;
     height: 234px;
     display: flex;
@@ -308,10 +299,10 @@ header ul a:hover{
     margin-top: 16px;
 }
 #contacts .img{
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: row;
     gap: 20px;
 }
 #contacts h3{
@@ -330,5 +321,5 @@ header ul a:hover{
     font-weight: 400;
     line-height: 115%; /* 23px */
     letter-spacing: 1.2px;
-    width: 260px;
+    max-width: 260px;
 }
